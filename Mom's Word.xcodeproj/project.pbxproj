@@ -13,6 +13,14 @@
 		20C5F9A9240AD4060038675B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C5F9A8240AD4060038675B /* Assets.xcassets */; };
 		20C5F9AC240AD4060038675B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C5F9AB240AD4060038675B /* Preview Assets.xcassets */; };
 		20C5F9AF240AD4060038675B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C5F9AD240AD4060038675B /* LaunchScreen.storyboard */; };
+		20C5F9C4240AD5230038675B /* AddWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9B8240AD5220038675B /* AddWord.swift */; };
+		20C5F9C5240AD5230038675B /* ReadingCardsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */; };
+		20C5F9C6240AD5230038675B /* WordListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BA240AD5220038675B /* WordListPage.swift */; };
+		20C5F9C7240AD5230038675B /* WordStore+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BC240AD5220038675B /* WordStore+Observable.swift */; };
+		20C5F9C8240AD5230038675B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BE240AD5220038675B /* Word.swift */; };
+		20C5F9C9240AD5230038675B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C0240AD5230038675B /* CardStack.swift */; };
+		20C5F9CA240AD5230038675B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C1240AD5230038675B /* FlashCard.swift */; };
+		20C5F9CB240AD5230038675B /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C3240AD5230038675B /* KeyboardResponder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		20C5F9AB240AD4060038675B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20C5F9AE240AD4060038675B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20C5F9B0240AD4060038675B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C5F9B8240AD5220038675B /* AddWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWord.swift; sourceTree = "<group>"; };
+		20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingCardsPage.swift; sourceTree = "<group>"; };
+		20C5F9BA240AD5220038675B /* WordListPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListPage.swift; sourceTree = "<group>"; };
+		20C5F9BC240AD5220038675B /* WordStore+Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordStore+Observable.swift"; sourceTree = "<group>"; };
+		20C5F9BE240AD5220038675B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		20C5F9C0240AD5230038675B /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		20C5F9C1240AD5230038675B /* FlashCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		20C5F9C3240AD5230038675B /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 		20C5F9A1240AD4060038675B /* Mom's Word */ = {
 			isa = PBXGroup;
 			children = (
+				20C5F9B6240AD46B0038675B /* main */,
 				20C5F9A2240AD4060038675B /* AppDelegate.swift */,
 				20C5F9A4240AD4060038675B /* SceneDelegate.swift */,
 				20C5F9A6240AD4060038675B /* ContentView.swift */,
@@ -73,6 +90,61 @@
 				20C5F9AB240AD4060038675B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		20C5F9B6240AD46B0038675B /* main */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9B7240AD5220038675B /* read_mode */,
+				20C5F9BF240AD5230038675B /* share */,
+				20C5F9BB240AD5220038675B /* store */,
+				20C5F9C2240AD5230038675B /* utils */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		20C5F9B7240AD5220038675B /* read_mode */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9B8240AD5220038675B /* AddWord.swift */,
+				20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */,
+				20C5F9BA240AD5220038675B /* WordListPage.swift */,
+			);
+			path = read_mode;
+			sourceTree = "<group>";
+		};
+		20C5F9BB240AD5220038675B /* store */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9BC240AD5220038675B /* WordStore+Observable.swift */,
+				20C5F9BD240AD5220038675B /* model */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		20C5F9BD240AD5220038675B /* model */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9BE240AD5220038675B /* Word.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		20C5F9BF240AD5230038675B /* share */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9C0240AD5230038675B /* CardStack.swift */,
+				20C5F9C1240AD5230038675B /* FlashCard.swift */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		20C5F9C2240AD5230038675B /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				20C5F9C3240AD5230038675B /* KeyboardResponder.swift */,
+			);
+			path = utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C5F9C5240AD5230038675B /* ReadingCardsPage.swift in Sources */,
+				20C5F9C8240AD5230038675B /* Word.swift in Sources */,
 				20C5F9A3240AD4060038675B /* AppDelegate.swift in Sources */,
+				20C5F9CB240AD5230038675B /* KeyboardResponder.swift in Sources */,
+				20C5F9C4240AD5230038675B /* AddWord.swift in Sources */,
+				20C5F9CA240AD5230038675B /* FlashCard.swift in Sources */,
 				20C5F9A5240AD4060038675B /* SceneDelegate.swift in Sources */,
+				20C5F9C6240AD5230038675B /* WordListPage.swift in Sources */,
 				20C5F9A7240AD4060038675B /* ContentView.swift in Sources */,
+				20C5F9C7240AD5230038675B /* WordStore+Observable.swift in Sources */,
+				20C5F9C9240AD5230038675B /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mom's Word/Preview Content\"";
+				DEVELOPMENT_TEAM = S7J4T3G6JC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Mom's Word/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Mom's Word/Preview Content\"";
+				DEVELOPMENT_TEAM = S7J4T3G6JC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Mom's Word/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
