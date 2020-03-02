@@ -9,12 +9,19 @@
 import Foundation
 import SwiftUI
 
+enum Aquired {
+    case known
+    case blur
+    case unknown
+}
+
 struct Word {
     let id : Int
     let word: String
     let icon: Image?
     
-    init(_ word: String, seq id: Int, icon: Image?=nil) {
+    
+    init(_ word: String, seq id: Int, icon:Image?=nil) {
         self.id = id
         self.word = word
         self.icon = icon

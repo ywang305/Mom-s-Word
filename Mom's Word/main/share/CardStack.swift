@@ -44,11 +44,11 @@ extension CardStack {
     private func getOffSize(_ seq: Int) -> CGSize {
         let endInd = self.words.endIndex
 
-        var size: CGSize = .zero
-        if seq==endInd-1 {
-            size.height = 60
-        } else if seq==endInd-2 {
-            size.height = 30
+        var size: CGSize = CGSize(width: 0, height: -60)
+        if seq==endInd-2 {
+            size.height = -30
+        } else if seq==endInd-1 {
+            size.height = .zero
         }
 
         return size
