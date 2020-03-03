@@ -16,14 +16,16 @@
 		20C5F9C4240AD5230038675B /* AddWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9B8240AD5220038675B /* AddWord.swift */; };
 		20C5F9C5240AD5230038675B /* ReadingCardsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */; };
 		20C5F9C6240AD5230038675B /* WordListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BA240AD5220038675B /* WordListPage.swift */; };
-		20C5F9C7240AD5230038675B /* WordStore+Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BC240AD5220038675B /* WordStore+Observable.swift */; };
+		20C5F9C7240AD5230038675B /* WordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BC240AD5220038675B /* WordStore.swift */; };
 		20C5F9C8240AD5230038675B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9BE240AD5220038675B /* Word.swift */; };
 		20C5F9C9240AD5230038675B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C0240AD5230038675B /* CardStack.swift */; };
 		20C5F9CA240AD5230038675B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C1240AD5230038675B /* FlashCard.swift */; };
 		20C5F9CB240AD5230038675B /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C3240AD5230038675B /* KeyboardResponder.swift */; };
-		20C5F9CD240AFF3E0038675B /* ReadEntryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CC240AFF3E0038675B /* ReadEntryPage.swift */; };
+		20C5F9CD240AFF3E0038675B /* ReadChapterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */; };
 		20C5F9CF240C3F7F0038675B /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CE240C3F7F0038675B /* EntryItem.swift */; };
 		20C5F9D1240C56430038675B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9D0240C56430038675B /* ProgressBar.swift */; };
+		20E09A0D240DFD9500EDF4BA /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E09A0C240DFD9500EDF4BA /* Chapter.swift */; };
+		20E09A0F240E024C00EDF4BA /* ChapterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E09A0E240E024C00EDF4BA /* ChapterStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,14 +40,16 @@
 		20C5F9B8240AD5220038675B /* AddWord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddWord.swift; sourceTree = "<group>"; };
 		20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingCardsPage.swift; sourceTree = "<group>"; };
 		20C5F9BA240AD5220038675B /* WordListPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordListPage.swift; sourceTree = "<group>"; };
-		20C5F9BC240AD5220038675B /* WordStore+Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WordStore+Observable.swift"; sourceTree = "<group>"; };
+		20C5F9BC240AD5220038675B /* WordStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordStore.swift; sourceTree = "<group>"; };
 		20C5F9BE240AD5220038675B /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		20C5F9C0240AD5230038675B /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		20C5F9C1240AD5230038675B /* FlashCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		20C5F9C3240AD5230038675B /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
-		20C5F9CC240AFF3E0038675B /* ReadEntryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadEntryPage.swift; sourceTree = "<group>"; };
+		20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadChapterPage.swift; sourceTree = "<group>"; };
 		20C5F9CE240C3F7F0038675B /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
 		20C5F9D0240C56430038675B /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		20E09A0C240DFD9500EDF4BA /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		20E09A0E240E024C00EDF4BA /* ChapterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +119,7 @@
 				20C5F9B8240AD5220038675B /* AddWord.swift */,
 				20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */,
 				20C5F9BA240AD5220038675B /* WordListPage.swift */,
-				20C5F9CC240AFF3E0038675B /* ReadEntryPage.swift */,
+				20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */,
 			);
 			path = read_mode;
 			sourceTree = "<group>";
@@ -123,7 +127,8 @@
 		20C5F9BB240AD5220038675B /* store */ = {
 			isa = PBXGroup;
 			children = (
-				20C5F9BC240AD5220038675B /* WordStore+Observable.swift */,
+				20E09A0E240E024C00EDF4BA /* ChapterStore.swift */,
+				20C5F9BC240AD5220038675B /* WordStore.swift */,
 				20C5F9BD240AD5220038675B /* model */,
 			);
 			path = store;
@@ -133,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				20C5F9BE240AD5220038675B /* Word.swift */,
+				20E09A0C240DFD9500EDF4BA /* Chapter.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -227,19 +233,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C5F9CD240AFF3E0038675B /* ReadEntryPage.swift in Sources */,
+				20C5F9CD240AFF3E0038675B /* ReadChapterPage.swift in Sources */,
+				20E09A0F240E024C00EDF4BA /* ChapterStore.swift in Sources */,
 				20C5F9C5240AD5230038675B /* ReadingCardsPage.swift in Sources */,
 				20C5F9C8240AD5230038675B /* Word.swift in Sources */,
 				20C5F9A3240AD4060038675B /* AppDelegate.swift in Sources */,
 				20C5F9CB240AD5230038675B /* KeyboardResponder.swift in Sources */,
 				20C5F9C4240AD5230038675B /* AddWord.swift in Sources */,
+				20E09A0D240DFD9500EDF4BA /* Chapter.swift in Sources */,
 				20C5F9D1240C56430038675B /* ProgressBar.swift in Sources */,
 				20C5F9CA240AD5230038675B /* FlashCard.swift in Sources */,
 				20C5F9CF240C3F7F0038675B /* EntryItem.swift in Sources */,
 				20C5F9A5240AD4060038675B /* SceneDelegate.swift in Sources */,
 				20C5F9C6240AD5230038675B /* WordListPage.swift in Sources */,
 				20C5F9A7240AD4060038675B /* ContentView.swift in Sources */,
-				20C5F9C7240AD5230038675B /* WordStore+Observable.swift in Sources */,
+				20C5F9C7240AD5230038675B /* WordStore.swift in Sources */,
 				20C5F9C9240AD5230038675B /* CardStack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

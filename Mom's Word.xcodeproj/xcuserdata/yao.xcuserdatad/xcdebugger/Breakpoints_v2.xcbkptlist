@@ -20,5 +20,161 @@
             landmarkType = "24">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D73164EA-E8D9-41EB-A477-FCFEC00FAED6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mom&apos;s Word/main/read_mode/ReadEntryPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "D73164EA-E8D9-41EB-A477-FCFEC00FAED6 - 760cd444304cfd19"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in Mom_s_Word.ReadEntry.body.getter : some"
+                  moduleName = "Mom&apos;s Word"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "D73164EA-E8D9-41EB-A477-FCFEC00FAED6 - 9f6bbebac9bf1f0e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in Mom_s_Word.ReadEntry.body.getter : some"
+                  moduleName = "Mom&apos;s Word"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "D73164EA-E8D9-41EB-A477-FCFEC00FAED6 - d54b3ed595a6060a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in (extension in Mom_s_Word_PreviewReplacement_ReadEntryPage_6):Mom_s_Word.ReadEntry.(__preview__body in _0E11801559F2BFA0927D7CE38FE7B1B3).getter : some"
+                  moduleName = "ReadEntryPage.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "30">
+               </Location>
+               <Location
+                  uuid = "D73164EA-E8D9-41EB-A477-FCFEC00FAED6 - cfefc3bc8eefbcbe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in (extension in Mom_s_Word_PreviewReplacement_ReadEntryPage_6):Mom_s_Word.ReadEntry.(__preview__body in _0E11801559F2BFA0927D7CE38FE7B1B3).getter : some"
+                  moduleName = "ReadEntryPage.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75B7224B-0985-4D3F-8E20-E7A18E3FE2A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mom&apos;s Word/main/read_mode/ReadEntryPage.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "75B7224B-0985-4D3F-8E20-E7A18E3FE2A4 - 9f6bbebac9bf1f0e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in Mom_s_Word.ReadEntry.body.getter : some"
+                  moduleName = "Mom&apos;s Word"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "75B7224B-0985-4D3F-8E20-E7A18E3FE2A4 - 28d1204fb3310dca"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Mom_s_Word.EntryItem in closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in Mom_s_Word.ReadEntry.body.getter : some"
+                  moduleName = "Mom&apos;s Word"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "75B7224B-0985-4D3F-8E20-E7A18E3FE2A4 - cfefc3bc8eefbcbe"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in (extension in Mom_s_Word_PreviewReplacement_ReadEntryPage_6):Mom_s_Word.ReadEntry.(__preview__body in _0E11801559F2BFA0927D7CE38FE7B1B3).getter : some"
+                  moduleName = "ReadEntryPage.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "75B7224B-0985-4D3F-8E20-E7A18E3FE2A4 - bd67da3cdbf69d7e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; Mom_s_Word.EntryItem in closure #1 (Swift.String) -&gt; SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt; in closure #1 () -&gt; SwiftUI.ForEach&lt;Swift.Array&lt;Swift.String&gt;, Swift.String, SwiftUI.NavigationLink&lt;Mom_s_Word.EntryItem, SwiftUI.Text&gt;&gt; in (extension in Mom_s_Word_PreviewReplacement_ReadEntryPage_6):Mom_s_Word.ReadEntry.(__preview__body in _0E11801559F2BFA0927D7CE38FE7B1B3).getter : some"
+                  moduleName = "ReadEntryPage.6.preview-thunk.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yao/iosprx/ManfenEd/Mom&apos;s%20Word/Mom&apos;s%20Word/main/read_mode/ReadEntryPage.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

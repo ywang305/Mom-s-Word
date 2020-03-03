@@ -21,7 +21,7 @@ struct EntryItem: View {
                 Text(self.title)
             }
             ProgressBar(value: $progress)
-        }
+            }.padding().background(Color.green).cornerRadius(16).shadow(radius: 8)
     }
 }
 

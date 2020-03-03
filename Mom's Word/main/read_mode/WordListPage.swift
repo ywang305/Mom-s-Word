@@ -12,23 +12,29 @@ struct WordListPage: View {
     @ObservedObject private var keyboard = KeyboardResponder()
     @ObservedObject private var wordStore = WordStore.shared
     
+    
+    
     private var words: [Word] {
         wordStore.readingWords.reversed()
     }
     
     var body: some View {
-        VStack {
-            List {
-                //the onDelete() modifier only exists on ForEach
-                ForEach(words) {
-                    Text("\($0.word)")
-                }.onDelete(perform: removeRows)
+        NavigationView {
+            VStack {
+                List {
+                    //the onDelete() modifier only exists on ForEach
+                    ForEach(words) {
+                        Text("\($0.word)")
+                    }.onDelete(perform: removeRows)
+                }
+                AddWord()
+                    .padding()
+                    .modifier(ResponsivePadding(keybordHeight: keyboard.currentHeight))
             }
-            AddWord()
-                .padding()
-                .modifier(ResponsivePadding(keybordHeight: keyboard.currentHeight))
-        }.navigationBarItems(trailing: EditButton())
-        .navigationBarTitle("Words To Read", displayMode: .inline)
+            .navigationBarItems(trailing: EditButton())
+            .navigationBarTitle("Words To Read", displayMode: .inline)
+        }
+        
     }
     
     func removeRows(at offsets: IndexSet) {
