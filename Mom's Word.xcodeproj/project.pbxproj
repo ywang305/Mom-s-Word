@@ -21,11 +21,12 @@
 		20C5F9C9240AD5230038675B /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C0240AD5230038675B /* CardStack.swift */; };
 		20C5F9CA240AD5230038675B /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C1240AD5230038675B /* FlashCard.swift */; };
 		20C5F9CB240AD5230038675B /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9C3240AD5230038675B /* KeyboardResponder.swift */; };
-		20C5F9CD240AFF3E0038675B /* ReadChapterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */; };
+		20C5F9CD240AFF3E0038675B /* ChapterNaviPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CC240AFF3E0038675B /* ChapterNaviPage.swift */; };
 		20C5F9CF240C3F7F0038675B /* EntryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9CE240C3F7F0038675B /* EntryItem.swift */; };
 		20C5F9D1240C56430038675B /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C5F9D0240C56430038675B /* ProgressBar.swift */; };
 		20E09A0D240DFD9500EDF4BA /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E09A0C240DFD9500EDF4BA /* Chapter.swift */; };
 		20E09A0F240E024C00EDF4BA /* ChapterStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E09A0E240E024C00EDF4BA /* ChapterStore.swift */; };
+		20E09A3B240F5CAF00EDF4BA /* AddChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E09A3A240F5CAF00EDF4BA /* AddChapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,11 +46,12 @@
 		20C5F9C0240AD5230038675B /* CardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		20C5F9C1240AD5230038675B /* FlashCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
 		20C5F9C3240AD5230038675B /* KeyboardResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
-		20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadChapterPage.swift; sourceTree = "<group>"; };
+		20C5F9CC240AFF3E0038675B /* ChapterNaviPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterNaviPage.swift; sourceTree = "<group>"; };
 		20C5F9CE240C3F7F0038675B /* EntryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryItem.swift; sourceTree = "<group>"; };
 		20C5F9D0240C56430038675B /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		20E09A0C240DFD9500EDF4BA /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		20E09A0E240E024C00EDF4BA /* ChapterStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterStore.swift; sourceTree = "<group>"; };
+		20E09A3A240F5CAF00EDF4BA /* AddChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +121,8 @@
 				20C5F9B8240AD5220038675B /* AddWord.swift */,
 				20C5F9B9240AD5220038675B /* ReadingCardsPage.swift */,
 				20C5F9BA240AD5220038675B /* WordListPage.swift */,
-				20C5F9CC240AFF3E0038675B /* ReadChapterPage.swift */,
+				20C5F9CC240AFF3E0038675B /* ChapterNaviPage.swift */,
+				20E09A3A240F5CAF00EDF4BA /* AddChapter.swift */,
 			);
 			path = read_mode;
 			sourceTree = "<group>";
@@ -233,8 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20C5F9CD240AFF3E0038675B /* ReadChapterPage.swift in Sources */,
+				20C5F9CD240AFF3E0038675B /* ChapterNaviPage.swift in Sources */,
 				20E09A0F240E024C00EDF4BA /* ChapterStore.swift in Sources */,
+				20E09A3B240F5CAF00EDF4BA /* AddChapter.swift in Sources */,
 				20C5F9C5240AD5230038675B /* ReadingCardsPage.swift in Sources */,
 				20C5F9C8240AD5230038675B /* Word.swift in Sources */,
 				20C5F9A3240AD4060038675B /* AppDelegate.swift in Sources */,

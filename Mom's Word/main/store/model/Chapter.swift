@@ -15,7 +15,7 @@ struct Chapter: Identifiable {
     let id: String
     let name: String
     let icon: Image?
-    var wordList: [Word]
+    var wordList: [Word] = []
     var progress: CGFloat {
         0.4
     }
