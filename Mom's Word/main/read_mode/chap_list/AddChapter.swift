@@ -9,14 +9,10 @@
 import SwiftUI
 
 struct AddChapter: View {
-    @ObservedObject private var store = ChapterStore.shared
-    private var count: Int {
-        self.store.chapters.count
-    }
+
     
     var body: some View {
-        
-        NavigationLink(destination: WordListPage()) {
+        NavigationLink(destination: WordListView(title:"")) {
             Image(systemName: "plus")
                 .font(.title)
                 .padding()

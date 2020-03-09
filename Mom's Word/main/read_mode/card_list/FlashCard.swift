@@ -35,9 +35,6 @@ extension AnyTransition {
 
 
 struct FlashCard: View {
-    let word: String
-    let onRemoval: (()->())?
-    
     
     var drag : some Gesture {
         DragGesture().onChanged{
@@ -58,12 +55,14 @@ struct FlashCard: View {
         }
     }
     
+    let word: String
+    let onRemoval: (()->())?
+    
     @State private var show = false
     @State private var offset: CGSize = .zero
     
     
     var body: some View {
-        
         VStack {
             if(self.show) {
                 Text(self.word)
@@ -75,7 +74,8 @@ struct FlashCard: View {
             
         }.onAppear{
             withAnimation(.easeInOut(duration: 1.0)) {
-                self.show=true
+                self.show = true
+                self.offset = .zero
             }
         }
         

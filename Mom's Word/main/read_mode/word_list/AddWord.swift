@@ -9,34 +9,37 @@
 import SwiftUI
 
 struct AddWord: View {
-    @ObservedObject private var wordstore = WordStore.shared
-    
     @State private var word: String = ""
+
+    let onComplete: ((_ value: String )->())
     
 
-    private func submitHandler() {
+    private func submit() {
         if !self.word.isEmpty {
-            self.wordstore.insert(word: word)
+            onComplete(self.word)
             self.word = ""
         }
     }
     
     var body: some View {
         HStack(alignment: .center, spacing: 20) {
-            TextField("Add New Word To List", text: $word, onCommit: submitHandler)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-            
-            Button(action: submitHandler) {
+            TextField("Add New Word To List", text: $word, onCommit: submit).padding()
+
+            Button(action: submit) {
                 Text("ADD")
             }
-        }
+        }.padding(.horizontal)
+            .background(RoundedRectangle(cornerRadius: 8).stroke())
     }
 }
 
 
 
 struct AddWord_Previews: PreviewProvider {
+    
     static var previews: some View {
-        AddWord()
+        AddWord(onComplete: {
+            print($0)
+        })
     }
 }

@@ -15,7 +15,7 @@ enum Aquired {
     case unknown
 }
 
-struct Word {
+struct Word: Identifiable {
     let id : Int
     let word: String
     let icon: Image?
@@ -27,7 +27,3 @@ struct Word {
         self.icon = icon
     }
 }
-
-
-
-extension Word: Identifiable { }
