@@ -11,10 +11,10 @@ import SwiftUI
 struct CardStack: View {
     
     @ObservedObject private var store = Store.shared
-    @ObservedObject private var wlObj : WordList = WordList(name:"")
+    @ObservedObject private var wlObj : WordList = WordList(name: "")
     @State private var lastIndex=0
     
-    init(title: String) {
+    init(title: String) {        
         wlObj = self.store.wordListSet.first(where: {$0.name==title}) ?? WordList(name: title)
     }
     var words : [Word] {
@@ -33,6 +33,7 @@ struct CardStack: View {
                 }
             }
             Spacer()
+            
             Button(action: {}) {
                 NavigationLink(destination: WordListView(title: wlObj.name)) {
                     Image(systemName: "list.number")

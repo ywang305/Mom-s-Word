@@ -24,12 +24,10 @@ class Store: ObservableObject {
         if !self.wordListSet.contains(_wordList) {
             self.wordListSet.insert(_wordList)
         }
-            
-        
         
     }
     
-    deinit {
+    func persist() {
         UserDefaults.standard.setWordListSet(value: self.wordListSet)
     }
 }
